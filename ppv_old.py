@@ -8,13 +8,6 @@ def decrypt_aes_cbc_pkcs7(encrypted, key, iv):
     aes = AES.new(key, AES.MODE_CBC, iv)
     return unpad(aes.decrypt(encrypted), AES.block_size)
 
-# path_to_encrypted_files = "/Users/reedsterz/Desktop/problemahthisash/files"
-
-# path_to_decrypted_files = "/Users/reedsterz/Desktop/problemahthisash/out/"
-
-# # from keychain.plist with key "ppv_dateHash"
-# aes_key_b64 = "PKMwf3Q0lvR/WX3pFajAG8w2NCNvNLWbdZ1bZ7KF6Pk="
-
 def decrypt_file(path_to_encrypted_files, path_to_decrypted_files, aes_key_b64):
 
     if not os.path.exists(path_to_decrypted_files):
