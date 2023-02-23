@@ -10,7 +10,7 @@ This repository contains the code for decrypt files in Photo Vault iOS app versi
 * Requires python3 installed.
 * Packages: pip install 'pycryptodome'
 * Arguments:
-    * -k : refer to the key 'ppv_dateHash' from the keychain
+    * -k : refer to the key 'ppv_dateHash' from the keychain in **base64** format
     * -i: the encrypted files are found in /mobile/Containers/Data/Application/com.enchantedcloud.photovault/Library/PPV_Pics
     * -o: path of the decrypted files
 
