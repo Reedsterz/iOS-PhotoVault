@@ -1,4 +1,4 @@
-This repository contains the code for decrypt files in Photo Vault iOS app
+This repository contains the code for decrypt files in Photo Vault iOS app. Tested with the version mentioned below.
 
 # Photo Vault v10.8
 
