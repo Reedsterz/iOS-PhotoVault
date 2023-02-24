@@ -3,7 +3,7 @@ This repository contains the code for decrypt files in Photo Vault iOS app. Test
 # Photo Vault v10.8
 
 ## Relevant Files
-- './ppv_old.py': script to decrypt photovault files
+- `./ppv_old.py`: script to decrypt photovault files
 
 ## How to run
 
@@ -21,7 +21,7 @@ python ppv_old.py -i <path to encrypted file> -o <path to decrypted file> -k <pp
 # Photo Vault v14.6
 
 ## Relevant Files
-- './ppv_new.py': script to decrypt photovault files
+- `./ppv_new.py`: script to decrypt photovault files
 
 ## How to run
 
